@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "4369a11b-7c28-4ff3-aaf3-d268d0744d12",
+    "colId": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "containerId": "c9eb3a1e-bb9b-4286-ad15-69d57c8f4cb0",
+    "name": "Buscar por id",
+    "url": "http://localhost:3001/students/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-10-20T17:25:22.194Z",
+    "modified": "2022-10-20T17:25:35.909Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "edb3024a-0c0b-4c44-89d1-febb346d65b8",
+    "colId": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "containerId": "f45639ec-48cb-4390-bcee-5f0297e99dee",
+    "name": "Listar",
+    "url": "http://localhost:3001/courses",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-10-20T17:56:46.889Z",
+    "modified": "2022-10-20T17:56:55.446Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "16f57ad5-2b6b-49b9-b9e2-0131d812815a",
+    "colId": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "containerId": "f45639ec-48cb-4390-bcee-5f0297e99dee",
+    "name": "Cadastrar",
+    "url": "http://localhost:3001/courses",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-10-20T17:59:12.817Z",
+    "modified": "2022-10-20T18:01:33.870Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Desenvolimento IOS\",\n  \"description\": \"Curso sobre desenvolvimento para IOS\",\n  \"creation_date\": \"2022-10-21\",\n  \"active\": true,\n  \"duration\": 6\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "afff3810-dd22-4129-9fca-46325fe0c199",
+    "colId": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "containerId": "f45639ec-48cb-4390-bcee-5f0297e99dee",
+    "name": "Alterar",
+    "url": "http://localhost:3001/courses/4",
+    "method": "PUT",
+    "sortNum": 50000,
+    "created": "2022-10-20T18:01:48.241Z",
+    "modified": "2022-10-20T19:56:26.556Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Desenvolimento Swift\",\n  \"description\": \"Curso sobre desenvolvimento para Swift\",\n  \"creation_date\": \"2022-10-21\",\n  \"active\": true,\n  \"duration\": 6\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c0ee5f89-cf30-4d68-b58a-1977b5f5f7da",
+    "colId": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "containerId": "f45639ec-48cb-4390-bcee-5f0297e99dee",
+    "name": "Deletar",
+    "url": "http://localhost:3001/courses/4",
+    "method": "DELETE",
+    "sortNum": 60000,
+    "created": "2022-10-20T18:02:18.440Z",
+    "modified": "2022-10-20T18:02:25.671Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

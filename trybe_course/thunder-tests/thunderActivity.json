@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "9f880db0-d6f4-407c-a919-39e56eef85ba",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/courses",
+    "url": "http://localhost:3000/courses",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-20T17:16:02.346Z",
+    "modified": "2022-10-20T17:16:02.378Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "18d6b3ee-1b12-44ac-9797-cfaf67fd8e5a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/course",
+    "url": "http://localhost:3000/course",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-20T17:16:04.077Z",
+    "modified": "2022-10-20T17:16:17.337Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "75dad00e-41a0-4f95-987f-18454e6aff75",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3001/course",
+    "url": "http://localhost:3001/course",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-20T17:16:20.590Z",
+    "modified": "2022-10-20T17:23:31.581Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

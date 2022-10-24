@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "a9792069-a5c5-4870-835f-554f0ba7ab18",
+    "colName": "TrybeCourse",
+    "created": "2022-10-20T17:24:58.290Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "c9eb3a1e-bb9b-4286-ad15-69d57c8f4cb0",
+        "name": "Estudantes",
+        "containerId": "",
+        "created": "2022-10-20T17:25:16.379Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "f45639ec-48cb-4390-bcee-5f0297e99dee",
+        "name": "Cursos",
+        "containerId": "",
+        "created": "2022-10-20T17:56:41.503Z",
+        "sortNum": 20000
+      }
+    ]
+  }
+]
