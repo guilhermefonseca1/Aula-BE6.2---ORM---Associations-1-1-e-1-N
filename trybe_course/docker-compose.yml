@@ -7,7 +7,7 @@ services:
       - MYSQL_ROOT_PASSWORD=password
     platform: linux/amd64
     ports:
-      - 3306:3306
+      - 3307:3307
   api:
     container_name: api
     image: node:16
