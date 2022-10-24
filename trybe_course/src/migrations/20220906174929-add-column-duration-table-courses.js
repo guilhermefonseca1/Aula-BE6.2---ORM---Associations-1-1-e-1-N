@@ -1,15 +1,15 @@
-'use strict';
+// 'use strict';
 
-module.exports = {
-  async up (queryInterface, Sequelize) {
-    await queryInterface.addColumn('courses', 'duration', {
-			allowNull: false,
-      type: Sequelize.INTEGER,
-      after: 'active'
-    });
-  },
+// module.exports = {
+//   async up (queryInterface, Sequelize) {
+//     await queryInterface.addColumn('courses', 'duration', {
+// 			allowNull: false,
+//       type: Sequelize.INTEGER,
+//       after: 'active'
+//     });
+//   },
 
-  async down (queryInterface, Sequelize) {
-    await queryInterface.removeColumn('courses', 'duration');
-  }
-};
+//   async down (queryInterface, Sequelize) {
+//     await queryInterface.removeColumn('courses', 'duration');
+//   }
+// };
