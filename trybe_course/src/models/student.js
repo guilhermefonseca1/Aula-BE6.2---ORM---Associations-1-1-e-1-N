@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     underscored: true,
     timestamps: false,
+    //timestamps: false é usado quando as a tabela for criada sem as coluna: create e update
   });
 
   Student.associate = (models) => {
