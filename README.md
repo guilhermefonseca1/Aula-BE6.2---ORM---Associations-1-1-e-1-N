@@ -1,7 +1,4 @@
-O que vamos aprender?
-Em MySQL você aprendeu a criar relações entre tabelas, utilizar Foreign Keys e Primary Keys, e fazer requisições com os temidos maravilhosos JOIN's.
-
-Hoje você verá como o Sequelize organiza essas ferramentas e como usá-las!
+O Sequelize organiza ferramentas utilizadas em criações de banco de dados, como, por exemplo: criar relações entre tabelas, utilizar Foreign Keys e Primary Keys, e fazer requisições com os JOIN's.e como usá-las!
 
 Você será capaz de:
 Utilizar o sequelize para criar relacionamento 1:1 entre tabelas;
